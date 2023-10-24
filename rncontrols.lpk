@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="RnControls"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="rnedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RnEdit"/>
+      </Item1>
+      <Item2>
+        <Filename Value="rnbutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RnButton"/>
+      </Item2>
+      <Item3>
+        <Filename Value="rniconchar.pas"/>
+        <UnitName Value="rniconchar"/>
+      </Item3>
+      <Item4>
+        <Filename Value="rnshapegradient.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="rnshapegradient"/>
+      </Item4>
+    </Files>
+    <CompatibilityMode Value="True"/>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
